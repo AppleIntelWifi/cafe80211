@@ -1,0 +1,43 @@
+Copyright (c) 2020, IntelWifi for MacOS authors
+All rights reserved.
+
+This software is licensed under the "/r/Hackintosh Pledge" (HP) license, 
+a derivative of the WTFPL (WTFPL) license as described below. No other licenses MAY apply.
+
+PREAMBLE
+--------
+Q: Why is this license so strict against tonymacx86? Aren't they the good guys within the Hackintosh community?
+
+A: No. See: https://github.com/khronokernel/Tonymcx86-stance
+
+Q: Doesn't this license prevent any development to occur from that side of the community?
+
+A: Historically, the majority of developments ORIGINATING from tonymacx86 are stolen, and
+do not give any credit to the actual developers and authors (see: MultiBeast, UniBeast, etc..)
+The short answer is, yes, but there are quite good reasons on why none of the prolific Hackintosh
+developers are major contributors within the tonymacx86 community.
+
+------------------------------------------
+The "/r/Hackintosh Pledge" license
+------------------------------------------
+
+0. You JUST DO WHATEVER THE FUCK YOU WANT, with the exceptions listed
+below under "EXCEPTIONS".
+
+1. THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, 
+TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, 
+WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+2. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+EXCEPTIONS
+----------
+
+tonymacx86 (@tonymacx86, TMacx86, etc.) may not make use of or redistribute this program and any of its derivatives in ANY form.
+
+This program, as well as it's source code and ANY derivatives may not be published, "posted", or referenced 
+on the tonymacx86 forum (tonymacx86.com, www.tonymacx86.com, etc.)
+
+This program, as well as it's source code and ANY derivatives may not be published, "posted", or referenced 
+on the Hackintosh Zone forum (hackintoshzone.com, hackintosh.zone, hackintosh.computer, etc.)

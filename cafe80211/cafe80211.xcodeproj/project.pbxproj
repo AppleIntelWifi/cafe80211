@@ -11,6 +11,19 @@
 		6843D9FD245CF9F500AF7F87 /* cafe80211.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6843D9FC245CF9F500AF7F87 /* cafe80211.cpp */; };
 		6843DA06245CFCB200AF7F87 /* cafe80211device.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6843DA04245CFCB200AF7F87 /* cafe80211device.cpp */; };
 		6843DA07245CFCB200AF7F87 /* cafe80211device.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA05245CFCB200AF7F87 /* cafe80211device.hpp */; };
+		6843DA14245D0C8400AF7F87 /* IOSkywalkEthernetInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA09245D0C8300AF7F87 /* IOSkywalkEthernetInterface.h */; };
+		6843DA15245D0C8400AF7F87 /* IOEthernetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA0A245D0C8300AF7F87 /* IOEthernetController.h */; };
+		6843DA16245D0C8400AF7F87 /* IO80211WorkLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA0B245D0C8300AF7F87 /* IO80211WorkLoop.h */; };
+		6843DA17245D0C8400AF7F87 /* apple80211_var.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA0C245D0C8300AF7F87 /* apple80211_var.h */; };
+		6843DA18245D0C8400AF7F87 /* IONetworkController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA0D245D0C8400AF7F87 /* IONetworkController.h */; };
+		6843DA19245D0C8400AF7F87 /* ioctl_dbg.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA0E245D0C8400AF7F87 /* ioctl_dbg.h */; };
+		6843DA1A245D0C8400AF7F87 /* IO80211Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA0F245D0C8400AF7F87 /* IO80211Controller.h */; };
+		6843DA1B245D0C8400AF7F87 /* apple80211_wps.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA10245D0C8400AF7F87 /* apple80211_wps.h */; };
+		6843DA1C245D0C8400AF7F87 /* IO80211Interface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA11245D0C8400AF7F87 /* IO80211Interface.h */; };
+		6843DA1D245D0C8400AF7F87 /* apple80211_ioctl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA12245D0C8400AF7F87 /* apple80211_ioctl.h */; };
+		6843DA1E245D0C8400AF7F87 /* IO80211SkywalkInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA13245D0C8400AF7F87 /* IO80211SkywalkInterface.h */; };
+		6843DA22245D280700AF7F87 /* cafe80211workloop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6843DA20245D280700AF7F87 /* cafe80211workloop.cpp */; };
+		6843DA23245D280700AF7F87 /* cafe80211workloop.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6843DA21245D280700AF7F87 /* cafe80211workloop.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +33,20 @@
 		6843D9FE245CF9F500AF7F87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6843DA04245CFCB200AF7F87 /* cafe80211device.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cafe80211device.cpp; sourceTree = "<group>"; };
 		6843DA05245CFCB200AF7F87 /* cafe80211device.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cafe80211device.hpp; sourceTree = "<group>"; };
+		6843DA09245D0C8300AF7F87 /* IOSkywalkEthernetInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSkywalkEthernetInterface.h; sourceTree = "<group>"; };
+		6843DA0A245D0C8300AF7F87 /* IOEthernetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOEthernetController.h; sourceTree = "<group>"; };
+		6843DA0B245D0C8300AF7F87 /* IO80211WorkLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IO80211WorkLoop.h; sourceTree = "<group>"; };
+		6843DA0C245D0C8300AF7F87 /* apple80211_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apple80211_var.h; sourceTree = "<group>"; };
+		6843DA0D245D0C8400AF7F87 /* IONetworkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IONetworkController.h; sourceTree = "<group>"; };
+		6843DA0E245D0C8400AF7F87 /* ioctl_dbg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioctl_dbg.h; sourceTree = "<group>"; };
+		6843DA0F245D0C8400AF7F87 /* IO80211Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IO80211Controller.h; sourceTree = "<group>"; };
+		6843DA10245D0C8400AF7F87 /* apple80211_wps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apple80211_wps.h; sourceTree = "<group>"; };
+		6843DA11245D0C8400AF7F87 /* IO80211Interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IO80211Interface.h; sourceTree = "<group>"; };
+		6843DA12245D0C8400AF7F87 /* apple80211_ioctl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apple80211_ioctl.h; sourceTree = "<group>"; };
+		6843DA13245D0C8400AF7F87 /* IO80211SkywalkInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IO80211SkywalkInterface.h; sourceTree = "<group>"; };
+		6843DA1F245D263400AF7F87 /* cafedebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cafedebug.h; sourceTree = "<group>"; };
+		6843DA20245D280700AF7F87 /* cafe80211workloop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cafe80211workloop.cpp; sourceTree = "<group>"; };
+		6843DA21245D280700AF7F87 /* cafe80211workloop.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cafe80211workloop.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +66,9 @@
 				6843D9F9245CF9F500AF7F87 /* cafe80211 */,
 				6843D9F8245CF9F500AF7F87 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		6843D9F8245CF9F500AF7F87 /* Products */ = {
 			isa = PBXGroup;
@@ -52,13 +81,35 @@
 		6843D9F9245CF9F500AF7F87 /* cafe80211 */ = {
 			isa = PBXGroup;
 			children = (
+				6843DA08245D0C5B00AF7F87 /* apple80211 */,
 				6843D9FA245CF9F500AF7F87 /* cafe80211.hpp */,
 				6843D9FC245CF9F500AF7F87 /* cafe80211.cpp */,
 				6843D9FE245CF9F500AF7F87 /* Info.plist */,
 				6843DA04245CFCB200AF7F87 /* cafe80211device.cpp */,
 				6843DA05245CFCB200AF7F87 /* cafe80211device.hpp */,
+				6843DA1F245D263400AF7F87 /* cafedebug.h */,
+				6843DA20245D280700AF7F87 /* cafe80211workloop.cpp */,
+				6843DA21245D280700AF7F87 /* cafe80211workloop.hpp */,
 			);
 			path = cafe80211;
+			sourceTree = "<group>";
+		};
+		6843DA08245D0C5B00AF7F87 /* apple80211 */ = {
+			isa = PBXGroup;
+			children = (
+				6843DA12245D0C8400AF7F87 /* apple80211_ioctl.h */,
+				6843DA0C245D0C8300AF7F87 /* apple80211_var.h */,
+				6843DA10245D0C8400AF7F87 /* apple80211_wps.h */,
+				6843DA0F245D0C8400AF7F87 /* IO80211Controller.h */,
+				6843DA11245D0C8400AF7F87 /* IO80211Interface.h */,
+				6843DA13245D0C8400AF7F87 /* IO80211SkywalkInterface.h */,
+				6843DA0B245D0C8300AF7F87 /* IO80211WorkLoop.h */,
+				6843DA0E245D0C8400AF7F87 /* ioctl_dbg.h */,
+				6843DA0A245D0C8300AF7F87 /* IOEthernetController.h */,
+				6843DA0D245D0C8400AF7F87 /* IONetworkController.h */,
+				6843DA09245D0C8300AF7F87 /* IOSkywalkEthernetInterface.h */,
+			);
+			path = apple80211;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,8 +119,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6843DA1D245D0C8400AF7F87 /* apple80211_ioctl.h in Headers */,
+				6843DA19245D0C8400AF7F87 /* ioctl_dbg.h in Headers */,
+				6843DA17245D0C8400AF7F87 /* apple80211_var.h in Headers */,
+				6843DA1E245D0C8400AF7F87 /* IO80211SkywalkInterface.h in Headers */,
+				6843DA14245D0C8400AF7F87 /* IOSkywalkEthernetInterface.h in Headers */,
 				6843DA07245CFCB200AF7F87 /* cafe80211device.hpp in Headers */,
+				6843DA23245D280700AF7F87 /* cafe80211workloop.hpp in Headers */,
+				6843DA1A245D0C8400AF7F87 /* IO80211Controller.h in Headers */,
+				6843DA18245D0C8400AF7F87 /* IONetworkController.h in Headers */,
 				6843D9FB245CF9F500AF7F87 /* cafe80211.hpp in Headers */,
+				6843DA15245D0C8400AF7F87 /* IOEthernetController.h in Headers */,
+				6843DA16245D0C8400AF7F87 /* IO80211WorkLoop.h in Headers */,
+				6843DA1C245D0C8400AF7F87 /* IO80211Interface.h in Headers */,
+				6843DA1B245D0C8400AF7F87 /* apple80211_wps.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +164,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = AppleIntelWifi;
+				ORGANIZATIONNAME = "IntelWifi for MacOS authors";
 				TargetAttributes = {
 					6843D9F6245CF9F500AF7F87 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -142,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6843D9FD245CF9F500AF7F87 /* cafe80211.cpp in Sources */,
+				6843DA22245D280700AF7F87 /* cafe80211workloop.cpp in Sources */,
 				6843DA06245CFCB200AF7F87 /* cafe80211device.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

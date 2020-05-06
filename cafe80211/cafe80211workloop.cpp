@@ -58,7 +58,7 @@ bool Cafe80211Timer::start() {
   
   IOLockLock(mutex);
   running = true;
-  timer->setTimeoutMS(time);
+  timer->setTimeout(time);
   timer->enable();
   IOLockUnlock(mutex);
   return true;
@@ -112,7 +112,6 @@ void Cafe80211Timer::interruptOccured(OSObject* owner, IOTimerEventSource* timer
   if (!obj) return;
   
   IOLockLock(obj->mutex);
-  
   if (obj->callback) {
     (*obj->callback)(obj->arg);
     IOLockUnlock(obj->mutex);
@@ -121,6 +120,3 @@ void Cafe80211Timer::interruptOccured(OSObject* owner, IOTimerEventSource* timer
     IOLockWakeup(obj->mutex, (void*)obj, false);
   }
 }
-
-
-

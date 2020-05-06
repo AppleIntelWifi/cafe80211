@@ -50,6 +50,17 @@ bool Cafe80211Timer::init(Cafe80211Workloop* _workloop, CafeTimerCallback* _call
   return true;
 }
 
+void Cafe80211Timer::free() {
+  if (timer) {
+    timer->disable();
+    workloop->removeEventSource(timer);
+  }
+  
+  if (mutex) {
+    IOLockFree(mutex);
+  }
+}
+
 bool Cafe80211Timer::start() {
   if (time == 0) return false;
   if (!timer) return false;

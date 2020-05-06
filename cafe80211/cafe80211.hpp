@@ -15,6 +15,10 @@
 #include "cafedebug.h"
 #include "cafe80211workloop.hpp"
 
+#ifndef BUILDER
+#define BUILDER "missing version info!"
+#endif
+
 class Cafe80211 : public IOService {
     OSDeclareDefaultStructors(Cafe80211)
 public:

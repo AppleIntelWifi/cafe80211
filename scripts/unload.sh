@@ -7,7 +7,4 @@ exit 123
 fi
 
 KEXT="$BUILD/Build/Products/Debug/cafe80211.kext"
-(./unload.sh | true)
-sudo chown -R $USER $KEXT
-read # Wait for user input here
-sudo chown -R root:wheel $KEXT && sudo kextutil -v 6 $KEXT
+sudo kextunload -v 6 -b us.appleintelwifi.cafe80211
